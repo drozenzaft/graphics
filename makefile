@@ -1,2 +1,2 @@
-image: image.py
+run: image.py
 	python image.py
