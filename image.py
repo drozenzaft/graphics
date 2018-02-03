@@ -6,6 +6,6 @@ for y in range(500):
         b = (x+y)%255
         ans += str(r) + ' ' + str(g) + ' ' + str(b) + ' '
     ans += '\n'
-f = open('picmaker.png','w')
+f = open('picmaker.ppm','w')
 f.write(ans)
 f.close()
